@@ -1,55 +1,165 @@
 * {
     margin: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Work Sans', sans-serif;}
+
+/*Header start*/
+.banner{
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
-/*Banner*/
+.banner-title{
+    width: 525px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-right: 110px;
 
-.banner-maintext {
-    position: absolute;
-width: 525px;
-height: 228px;
-left: 845px;
-top: 216px;
-
-
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 76px;
-text-align: right;
 }
 
-.banner-subtext {
-position: absolute;
-width: 494px;
-height: 78px;
-left: 876px;
-top: 468px;
+.banner-sub-title{
+    width: 525px;
+    margin-right: 110px;
+    text-align: right;
+    color: #444343;
+    font-size: 16px;
+    margin-bottom: 10px;
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
 
-text-align: right;
+}
 
-/* Dark 02 */
+.banner-btn{
+    margin-right: 110px;
+    height: 54px;
+    border-radius: 5px;
+    background-color:#ff4500;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
 
-color: #444343;
+/*Header end*/
+
+/* Main start */
+.my-failures, .positive-mindset {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 
-.banner-btn {
-    position: absolute;
-width: 160px;
-height: 64px;
-left: 1210px;
-top: 578px;
+/* my-failures section */
+.my-failures {
+    margin-top: 130px;
+}
+.previous-year {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.previous-year .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.previous-year .description {
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.previous-year ul li {
+    list-style: none;
+    /* width: 315px; */
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    margin-left: -40px;
+}
+.fa-solid{
+    color: #16d887;
+    
+}
+.fa-check{
+    font-size: medium;
 }
 
-/* footer section */
+/* my-plans section */
+.my-plans {
+    margin-top: 130px;
+}
+.my-plans .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plans {
+    display: flex;
+    gap: 86px;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.plans img {
+    margin-bottom: 24px;
+}
+.plans .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plans .description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* positive-mindset section */
+.positive-mindset {
+    margin-top: 124px;
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    border-radius: 8px;
+}
+.mindset {
+    padding-left: 64px;
+    padding-top: 59px;
+}
+.mindset .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.mindset button {
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 36px;
+    border: 0;
+}
+
+
+/* footer section start*/
 footer {
     margin-top: 130px;
     height: 577px;
@@ -104,7 +214,7 @@ form {
 }
 input[type="email"] {
     background: #151414;
-    padding-top: 22px;
+    padding-top:px;
     padding: 21px;
     border: 1px solid #F3F3F3;
     border-radius: 8px;
@@ -123,3 +233,4 @@ input[type="submit"] {
     color: #F15B22;
     padding: 20px 36px;
 }
+/* footer section end*/
