@@ -97,7 +97,7 @@
     font-size: medium;
 }
 
-/* my-plans section */
+/* starting my-plans section */
 .my-plans {
     margin-top: 130px;
 }
@@ -111,7 +111,6 @@
 .plans {
     display: flex;
     gap: 86px;
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
 }
@@ -129,8 +128,9 @@
     font-size: 25px;
     color: #737272;
 }
+/* Ending my-plans section */
 
-/* positive-mindset section */
+/* starting positive-mindset section */
 .positive-mindset {
     margin-top: 124px;
     width: 1140px;
@@ -148,7 +148,9 @@
     color: #FFFFFF;
     margin-bottom: 24px;
 }
-.mindset button {
+
+/*call button*/
+.call-btn {
     color: #F15B22;
     background: #FFFFFF;
     border-radius: 5px;
@@ -156,7 +158,9 @@
     font-size: 20px;
     padding: 21px 36px;
     border: 0;
+    width: 160px;
 }
+/* Ending positive-mindset section */
 
 
 /* footer section start*/
@@ -224,13 +228,15 @@ input[type="email"]::placeholder {
     font-size: 18px;
     color: #F3F3F3;
 }
-input[type="submit"] {
+/*subscribe button*/
+.subscribe-btn {
+    color: #F15B22;
     background: #FFFFFF;
-    border-radius: 8px;
-    font-family: 'Inter';
+    border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
-    color: #F15B22;
-    padding: 20px 36px;
+    padding: 21px 36px;
+    border: 0;
+    width: 200px;
 }
 /* footer section end*/
