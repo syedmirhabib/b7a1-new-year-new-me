@@ -58,7 +58,7 @@
 }
 
 
-/* my-failures section */
+/* my-failures section start */
 .my-failures {
     margin-top: 130px;
 }
@@ -97,6 +97,8 @@
     font-size: medium;
 }
 
+/* my-failures section end */
+
 /* starting my-plans section */
 .my-plans {
     margin-top: 130px;
@@ -129,6 +131,40 @@
     color: #737272;
 }
 /* Ending my-plans section */
+
+/* books to read section start */
+.my-failures {
+    margin-top: 130px;
+}
+.previous-year {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.previous-year .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.previous-year .description {
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.previous-year ul li {
+    list-style: none;
+    /* width: 315px; */
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    margin-left: -40px;
+}
+
+/* books to read section end */
 
 /* starting positive-mindset section */
 /* adding Linear gradient on the mindset section */
