@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+/*Banner*/
+
+.banner-maintext {
+    position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+}
+
+.banner-subtext {
+position: absolute;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: right;
+
+/* Dark 02 */
+
+color: #444343;
+}
+
+
+.banner-btn {
+    position: absolute;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 578px;
+}
+
+/* footer section */
+footer {
+    margin-top: 130px;
+    height: 577px;
+    background: #151414;
+}
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* info */
+.info {
+    width: 485px;
+    color: #FFFFFF;
+}
+.info .title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.info .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.info .email {
+    margin-bottom: 16px;
+}
+.info .phone {
+    margin-bottom: 32px;
+}
+.info a {
+    margin-right: 17px;
+    text-decoration: none;
+}
+.subscribe h3 {
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+input[type="email"] {
+    background: #151414;
+    padding-top: 22px;
+    padding: 21px;
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+}
+input[type="email"]::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+input[type="submit"] {
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+}
